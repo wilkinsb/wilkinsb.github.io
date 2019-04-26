@@ -1,6 +1,6 @@
 # Dependencies & build settings
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 plugins:
   - jekyll-feed
 
@@ -22,8 +22,6 @@ author:
   github_username: wilkinsb
 
 paginate:         5
-permalink:        pretty
-relative_permalinks: true
 
 github:
   repo:           https://github.com/wilkinsb/wilkinsb.github.io
