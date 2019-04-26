@@ -13,7 +13,7 @@ description:      >-
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl:          ''
-url:              'http://wilkinsb.github.io'
+url:              'https://wilkinsb.github.io'
 
 author:
   name:            'Brandon Wilkins'
