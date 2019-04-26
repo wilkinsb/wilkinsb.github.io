@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            bwilkins resources
+tagline:          'Reviews on Software Resources'
+description:      ''
+url:              http://wilkinsb.github.io
+baseurl:          /
+
+author:
+  name:           'Brandon Wilkins'
+  url:            https://github.com/wilkinsb
+
+# paginate:         5
+
+# Custom vars
+# version:          2.1.0
+
+github:
+  repo:           https://github.com/wilkinsb/wilkinsb.github.io
