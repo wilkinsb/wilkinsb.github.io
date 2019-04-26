@@ -1,22 +1,27 @@
-# Dependencies
-markdown:         redcarpet
+# Dependencies & build settings
+markdown:         kramdown
 highlighter:      pygments
+plugins:
+  - jekyll-feed
+
 
 # Setup
 title:            bwilkins resources
 tagline:          'Reviews on Software Resources'
-description:      ''
+description:      >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 url:              http://wilkinsb.github.io
 baseurl:          /
 
 author:
-  name:           'Brandon Wilkins'
-  url:            https://github.com/wilkinsb
+  name:            'Brandon Wilkins'
+  email:           brandwilki@gmail.com
+  url:             https://github.com/wilkinsb
+  github_username: wilkinsb
 
-# paginate:         5
-
-# Custom vars
-# version:          2.1.0
+paginate:         5
 
 github:
   repo:           https://github.com/wilkinsb/wilkinsb.github.io
