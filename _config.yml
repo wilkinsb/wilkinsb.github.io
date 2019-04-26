@@ -22,6 +22,8 @@ author:
   github_username: wilkinsb
 
 paginate:         5
+permalink:        pretty
+relative_permalinks: true
 
 github:
   repo:           https://github.com/wilkinsb/wilkinsb.github.io
