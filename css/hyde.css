@@ -29,7 +29,6 @@ html {
   }
 }
 
-
 /*
  * Sidebar
  *
@@ -39,8 +38,8 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: #000066;
-  background-color: #6a9fb5;
+  color: #d8d0c1;
+  background-color: #475770;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -55,24 +54,27 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #ccc9e7;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;
+  color: #ccc9e7;
   margin-top: 0;
   font-family: "Roboto", serif;
   font-size: 3.25rem;
+  text-align: center;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
-  margin-bottom: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  margin-bottom: 2rem;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -96,7 +98,6 @@ a.sidebar-nav-item:focus {
     left:   1rem;
   }
 }
-
 
 /* Container
  *
@@ -123,38 +124,3 @@ a.sidebar-nav-item:focus {
     margin-right: 4rem;
   }
 }
-
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
-}
-
-/* Blue */
-.theme-base-0d .sidebar {
-  background-color: #6a9fb5;
-}
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
-}
-

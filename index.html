@@ -2,7 +2,10 @@
 layout: default
 title: Home
 ---
-
+<div class="intro">
+    testing
+</div>
+<hr>
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -15,7 +18,7 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-<!-- {{ post.content }} -->
+    {{ post.excerpt }}
 
   </div>
   {% endfor %}

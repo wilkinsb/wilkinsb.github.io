@@ -13,13 +13,6 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">Home</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
@@ -28,10 +21,17 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-      <br>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    </nav>
 
+      {% for category in site.categories %}
+        <h3>{{ category[0] }}</h3>
+        <ul>
+      {% for post in category[1] | limit: 3 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+        </ul>
+      {% endfor %}
+    </nav>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">Source</a>
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
