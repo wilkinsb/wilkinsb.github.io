@@ -7,10 +7,10 @@ plugins:
 
 
 # Setup
-title:            bwilkins resources
-tagline:          ''
+title:            self.boost
+tagline:          SWE Resource Reviews
 description:      >-
-  Reviews on Software Resources
+  A review source on various software books, tutorials, and guides
 baseurl:          ''
 url:              'https://wilkinsb.github.io'
 

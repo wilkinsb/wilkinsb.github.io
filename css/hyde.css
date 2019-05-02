@@ -40,6 +40,7 @@ html {
   padding: 2rem 1rem;
   color: #d8d0c1;
   background-color: #475770;
+  /* background-image: url('/assets/style/vector_space.png'); */
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -61,7 +62,7 @@ html {
 .sidebar-about h1 {
   color: #ccc9e7;
   margin-top: 0;
-  font-family: "Roboto", serif;
+  font-family: "Karla", serif;
   font-size: 3.25rem;
   text-align: center;
 }
