@@ -65,6 +65,8 @@ html {
   font-family: "Karla", serif;
   font-size: 3.25rem;
   text-align: center;
+  display: flex;
+  height: 100%;
 }
 
 /* Sidebar nav */
