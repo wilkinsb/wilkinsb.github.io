@@ -2,7 +2,7 @@
 
 ---
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="sidebar-sticky">
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.url }}">
@@ -21,17 +21,18 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
+      <br>
+      <hr>
       {% for category in site.categories %}
         <h3>{{ category[0] }}</h3>
         <ul>
-      {% for post in category[1] | limit: 3 %}
+      {% for post in category[1] | limit: 5 %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
         </ul>
       {% endfor %}
     </nav>
+    <hr>
     <a class="sidebar-nav-item" href="{{ site.github.repository_url }}">Source</a>
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>

@@ -36,10 +36,11 @@ html {
  * out above content in mobile and later moves to the side with wider viewports.
  */
 .sidebar {
-  text-align: center;
   padding: 2rem 1rem;
   color: #d8d0c1;
   background-color: #475770;
+  display: flex;
+  flex-direction: column;
   /* background-image: url('/assets/style/vector_space.png'); */
 }
 @media (min-width: 48em) {
@@ -50,6 +51,7 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
+    display: flex;
   }
 }
 
@@ -61,32 +63,34 @@ html {
 /* About section */
 .sidebar-about h1 {
   color: #ccc9e7;
-  margin-top: 0;
+  margin-top: 4rem;
   font-family: "Karla", serif;
   font-size: 3.25rem;
   text-align: center;
-  display: flex;
-  height: 100%;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
 }
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
-  margin-bottom: 2rem;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 .sidebar-nav-item.active {
-  font-weight: bold;
+  font-weight: 900;
+  font-style: italic;
 }
 
+.sidebar-nav h3 {
+  color: #d8d0c1;
+  font-weight: 500;
+}
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
@@ -95,10 +99,13 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
+    margin: auto;
+    max-width: 38rem;
+    padding-left:  1rem;
+    padding-right: 1rem;
+    align-items: stretch;
+    align-content: space-between;
+    flex-grow: 1;
   }
 }
 
@@ -115,7 +122,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 60rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -123,7 +130,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 25rem;
     margin-right: 4rem;
   }
 }

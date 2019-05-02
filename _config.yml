@@ -10,7 +10,7 @@ plugins:
 title:            self.boost
 tagline:          SWE Resource Reviews
 description:      >-
-  A review source on various software books, tutorials, and guides
+  A collection of notes on software books, tutorials, and guides
 baseurl:          ''
 url:              'https://wilkinsb.github.io'
 
