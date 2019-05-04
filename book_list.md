@@ -2,7 +2,7 @@
 layout: page
 title: Book List
 ---
-
+<hr>
 Below is a list of software related books that we'll try to work through. Books will be added, some books may be removed; The list will be ever-changing! This page is just a clean overview of what you can expect to find within the posts.
 
 - [ ] Fluent Python
