@@ -4,7 +4,7 @@ title: About
 ---
 <hr>
 
-Welcome to *self*.**boost** , a collection of information, both related and unrelated, gathered as I work through various software resources. My name is [Brandon Wilkins](https://github.com/wilkinsb) - I'm a Software Engineer based in <span style="color:blue">Seattle, WA</span>.
+Welcome to **self.boost** , a collection of information, both related and unrelated, gathered as I work through various software resources. My name is [Brandon Wilkins](https://github.com/wilkinsb) - I'm a Software Engineer based in <span style="color:blue">Seattle, WA</span>.
 
 As I slowly slog through the library of books and tutorials I've gathered over the years, I'll be creating and updating blog posts to capture my thoughts. While I cannot guarantee the quality of the posts and information here, I can promise that none of it will be *intentionally* misleading or incorrect. Some posts will be better/more informative than others, some will receive more time and attention, and it will probably be obvious when I am not enjoying a book- However I will do my best to portray each source accurately and fairly, no matter my opinion.
 
